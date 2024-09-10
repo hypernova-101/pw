@@ -1,0 +1,66 @@
+ffmpeg version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+Input #0, matroska,webm, from 'physics\2226059347_105_Mechanical_Properties_of_Fluid_01__Elasticity__Fluid__NO_DPP.mkv':
+  Metadata:
+    ENCODER         : Lavf60.22.101
+  Duration: 02:26:12.03, start: 0.000000, bitrate: 376 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 1k tbn
+      Metadata:
+        DURATION        : 02:26:12.033000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+      Metadata:
+        DURATION        : 02:26:12.010000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output000.mkv' for writing
+Output #0, segment, to 'Mechanical_Properties_of_Fluid\01\\output%03d.mkv':
+  Metadata:
+    encoder         : Lavf61.5.101
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 30 tbr, 1k tbn
+      Metadata:
+        DURATION        : 02:26:12.033000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+      Metadata:
+        DURATION        : 02:26:12.010000000
+Press [q] to stop, [?] for help
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output001.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output002.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output003.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output004.mkv' for writing
+size=N/A time=00:20:13.10 bitrate=N/A speed=2.41e+03x    [segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output005.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output006.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output007.mkv' for writing
+size=N/A time=00:39:39.34 bitrate=N/A speed=2.34e+03x    [segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output008.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output009.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output010.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output011.mkv' for writing
+size=N/A time=01:00:04.00 bitrate=N/A speed=2.35e+03x    [segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output012.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output013.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output014.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output015.mkv' for writing
+size=N/A time=01:19:31.96 bitrate=N/A speed=2.33e+03x    [segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output016.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output017.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output018.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output019.mkv' for writing
+size=N/A time=01:39:05.50 bitrate=N/A speed=2.32e+03x    [segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output020.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output021.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output022.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output023.mkv' for writing
+size=N/A time=01:59:40.69 bitrate=N/A speed=2.33e+03x    [segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output024.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output025.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output026.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output027.mkv' for writing
+size=N/A time=02:20:01.90 bitrate=N/A speed=2.33e+03x    [segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output028.mkv' for writing
+[segment @ 000001f1739f6640] Opening 'Mechanical_Properties_of_Fluid\01\\output029.mkv' for writing
+[out#0/segment @ 000001f1739fe5c0] video:295485KiB audio:102797KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=02:26:11.96 bitrate=N/A speed=2.33e+03x    

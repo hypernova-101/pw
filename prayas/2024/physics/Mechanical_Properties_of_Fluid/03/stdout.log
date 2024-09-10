@@ -1,0 +1,60 @@
+ffmpeg version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+Input #0, matroska,webm, from 'physics\2226059347_107_Mechanical_Properties_of_Fluid_03__Rotation_Of_Tube__Force_D.mkv':
+  Metadata:
+    ENCODER         : Lavf60.22.101
+  Duration: 01:57:00.03, start: 0.000000, bitrate: 397 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 1k tbn
+      Metadata:
+        DURATION        : 01:57:00.033000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+      Metadata:
+        DURATION        : 01:57:00.010000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output000.mkv' for writing
+Output #0, segment, to 'Mechanical_Properties_of_Fluid\03\\output%03d.mkv':
+  Metadata:
+    encoder         : Lavf61.5.101
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 30 tbr, 1k tbn
+      Metadata:
+        DURATION        : 01:57:00.033000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+      Metadata:
+        DURATION        : 01:57:00.010000000
+Press [q] to stop, [?] for help
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output001.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output002.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output003.mkv' for writing
+size=N/A time=00:18:42.16 bitrate=N/A speed=2.2e+03x    [segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output004.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output005.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output006.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output007.mkv' for writing
+size=N/A time=00:37:33.35 bitrate=N/A speed=2.2e+03x    [segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output008.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output009.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output010.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output011.mkv' for writing
+size=N/A time=00:55:52.96 bitrate=N/A speed=2.17e+03x    [segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output012.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output013.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output014.mkv' for writing
+size=N/A time=01:13:59.16 bitrate=N/A speed=2.16e+03x    [segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output015.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output016.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output017.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output018.mkv' for writing
+size=N/A time=01:32:12.62 bitrate=N/A speed=2.15e+03x    [segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output019.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output020.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output021.mkv' for writing
+[segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output022.mkv' for writing
+size=N/A time=01:50:49.70 bitrate=N/A speed=2.15e+03x    [segment @ 000001cb2fe0e5c0] Opening 'Mechanical_Properties_of_Fluid\03\\output023.mkv' for writing
+[out#0/segment @ 000001cb2fe031c0] video:254263KiB audio:82266KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=01:56:59.96 bitrate=N/A speed=2.16e+03x    

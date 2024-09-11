@@ -1,0 +1,57 @@
+ffmpeg version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+Input #0, matroska,webm, from 'physics\2226059347_171_Capacitor_04__Circuit_Analysis__PYQ_Questions__No_DPP__Extra.mkv':
+  Metadata:
+    ENCODER         : Lavf60.22.101
+  Duration: 01:44:16.03, start: 0.000000, bitrate: 315 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 1k tbn
+      Metadata:
+        DURATION        : 01:44:16.033000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+      Metadata:
+        DURATION        : 01:44:16.000000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output000.mkv' for writing
+Output #0, segment, to 'Capacitor\04\\output%03d.mkv':
+  Metadata:
+    encoder         : Lavf61.5.101
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 30 tbr, 1k tbn
+      Metadata:
+        DURATION        : 01:44:16.033000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+      Metadata:
+        DURATION        : 01:44:16.000000000
+Press [q] to stop, [?] for help
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output001.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output002.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output003.mkv' for writing
+size=N/A time=00:18:34.49 bitrate=N/A speed=2.17e+03x    [segment @ 0000029b72876780] Opening 'Capacitor\04\\output004.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output005.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output006.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output007.mkv' for writing
+size=N/A time=00:35:54.03 bitrate=N/A speed=2.09e+03x    [segment @ 0000029b72876780] Opening 'Capacitor\04\\output008.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output009.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output010.mkv' for writing
+size=N/A time=00:54:16.20 bitrate=N/A speed=2.11e+03x    [segment @ 0000029b72876780] Opening 'Capacitor\04\\output011.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output012.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output013.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output014.mkv' for writing
+size=N/A time=01:12:23.96 bitrate=N/A speed=2.11e+03x    [segment @ 0000029b72876780] Opening 'Capacitor\04\\output015.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output016.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output017.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output018.mkv' for writing
+size=N/A time=01:31:19.86 bitrate=N/A speed=2.13e+03x    [segment @ 0000029b72876780] Opening 'Capacitor\04\\output019.mkv' for writing
+[segment @ 0000029b72876780] Opening 'Capacitor\04\\output020.mkv' for writing
+[out#0/segment @ 0000029b72876680] video:164578KiB audio:73312KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=01:44:15.96 bitrate=N/A speed=2.15e+03x    
